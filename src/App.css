@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+
+#header {
+  color: white;
+  background-color: #e40046;
+}
+
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu li a {
+  color: white;
+  padding: 15px 10px;
+  display: block;
+  text-decoration: none;
+  font-size: large;
+}
+
+#menu li a:hover {
+  background: #bd2130;
+  text-decoration: none;
+}
+
+#logo {
+  font-size: 2rem;
+  margin-top: 5px;
+  color: currentColor;
+  font-family: sans-serif;
+}
+
+#logo Link:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.none {
+  color: white;
+  text-decoration: none;
+}
+
+.none:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.firstDiv{
+  width: 100%;
+  text-align: left;
+}
+
